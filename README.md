@@ -6,12 +6,12 @@ This repo is for getting latest stock prices from Börse Frankfurt and sending i
 
 It is:
 - based on [joqueka/bf4py](https://github.com/joqueka/bf4py) Python package for retrieving the data from boerse-frankfurt.de
-- ported by [Claude Sonnet 3.5 from Anthropic](https://www.anthropic.com/) to a bash only version which only queries the current price
+- ported by [Claude Sonnet 3.5 from Anthropic](https://www.anthropic.com/) to a bash only version (and modified to only send the current price)
 - uses an inofficial API -> may stop working at some point
 - far from stable
 - takes rather long, about a minute or longer, to retrieve the data (!)
 
-The output can for example be written with Telegraf to an InfluxDB and then displayed in Grafana (also called "TIG Stack").
+The output can for example be written with Telegraf to an InfluxDB and then be displayed in Grafana (also called "TIG Stack").
 
 ---
 
