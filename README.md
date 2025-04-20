@@ -33,7 +33,7 @@ Also you need to modify the MQTT string in the `get_stock_price_lastPriceOnlyToM
 ## Notice
 
 Please note that this is just a **quick bodged together** version.
-It takes unusual long for getting the stock prices and I wasn't able to check if it also takes that long with the original "bf4py" project.
+It takes **unexpected long (sometimes over a minute!)** for getting the stock prices and I wasn't able to check if it also takes that long with the original "bf4py" project.
 I didn't put much work in it since the AI ported version worked so far. Except testing it for some weeks and adding some sanity checks (sometimes it did output the value twice separated by a linebreak before the fix) I did not further try to improve this since it's a _nice to have_ project.
 
 ---
